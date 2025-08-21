@@ -1,0 +1,38 @@
+server:
+  port: 8001
+  mode: "debug"
+  shutdown_timeout: 5s
+  path:
+    messages: /api/v1/messages
+    contacts: /api/v1/contacts/:id
+    groups: /api/v1/groups/:id
+
+grpc:
+  dsn: "localhost:50051"
+  
+logger:
+  dir: log                                  # DO NOT EDIT!
+  file_name: whatsapp-api
+  max_backups: 0                            # set 0 for unlimited backups
+  max_size: 10                              # in mb
+  max_age: 90                               # in days, set 0 for unlimited days
+  compress: true
+  local_time: true
+  level: debug                              # debug, info, warn, error: true
+
+redis:
+  host: 127.0.0.1
+  port: 6379
+  username: 
+  password: 
+  database: 0
+  qr_span: 100
+
+postgres:
+  host: sgp.domcloud.co
+  port: 5432
+  username: trusty-employ-cav
+  password: wkc(Aw9K8H)_4Tm8T6
+  database: trusty_employ_cav_db
+  options:
+    - sslmode=disable
