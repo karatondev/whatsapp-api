@@ -1,0 +1,20 @@
+2025-08-21 13:54:37.158 - INFO - MAIN - Application started
+2025-08-21 13:54:37.166 - INFO - MAIN - Starting gRPC client for server at localhost:50051
+2025-08-21 13:54:37.168 - INFO - MAIN - Server running at: :8001
+2025-08-21 14:01:05.374 - INFO - MAIN - Receiving signal: terminated
+2025-08-21 14:01:05.375 - INFO - MAIN - Successfully stop Application.
+2025-08-21 14:03:47.363 - INFO - MAIN - Application started
+2025-08-21 14:03:47.371 - INFO - MAIN - Starting gRPC client for server at localhost:50051
+2025-08-21 14:03:47.372 - INFO - MAIN - Server running at: :8001
+2025-08-21 14:06:28.299 - INFO - MAIN - Receiving signal: interrupt
+2025-08-21 14:06:28.301 - INFO - MAIN - Successfully stop Application.
+2025-08-21 14:06:39.181 - INFO - MAIN - Application started
+2025-08-21 14:06:39.189 - INFO - MAIN - Starting gRPC client for server at localhost:50051
+2025-08-21 14:06:39.191 - INFO - MAIN - Server running at: :8001
+2025-08-21 14:14:32.868 - INFO - MAIN - Receiving signal: interrupt
+2025-08-21 14:14:32.871 - INFO - MAIN - Successfully stop Application.
+2025-08-21 14:14:45.263 - INFO - MAIN - Application started
+2025-08-21 14:14:45.278 - INFO - MAIN - Starting gRPC client for server at localhost:50051
+2025-08-21 14:14:45.280 - INFO - MAIN - Server running at: :8001
+2025-08-21 14:16:14.164 - INFO - MAIN - Receiving signal: interrupt
+2025-08-21 14:16:14.165 - INFO - MAIN - Successfully stop Application.
